@@ -1,0 +1,18 @@
+# 复制为 candidate/candidate-profile.local.yaml 后按需填写。
+# candidate/ 已被 Git 忽略，切勿将真实简历、经历或链接提交到仓库。
+candidate:
+  resume_path: candidate/resume.pdf # 可选：PDF、DOCX、Markdown 或文本
+  experience_path: candidate/experience.md # 可选：本地经历资料
+  # experience_feishu_url: https://example.feishu.cn/docx/your-document-id
+
+preferences:
+  target_directions:
+    - AI 应用
+    - Agent
+  preferred_businesses:
+    - C 端
+    - 企业服务
+  accept_platform_roles: undecided # true | false | undecided
+  locations: []
+  work_languages: []
+  notes: "未填写的项目使用默认 AIPM 校招筛选标准。"

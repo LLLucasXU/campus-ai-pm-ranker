@@ -1,0 +1,111 @@
+{
+  "company": {
+    "name": "示例科技",
+    "career_url": "https://careers.example.com/campus"
+  },
+  "run": {
+    "collected_at": "2026-08-25T10:00:00+08:00",
+    "collection_method": "fixture",
+    "pagination_complete": true,
+    "list_job_count": 5,
+    "detail_success_count": 5,
+    "detail_failure_count": 0,
+    "candidate_profile_refreshed_at": "2026-08-25T09:55:00+08:00",
+    "errors": []
+  },
+  "profile_evidence": [
+    {
+      "id": "profile-1",
+      "experience": "AI 产品实习",
+      "source": "experience_file",
+      "source_revision": "2026-08-25T09:55:00+08:00",
+      "capabilities": ["产品设计", "评测闭环"]
+    }
+  ],
+  "company_evidence": [
+    {
+      "id": "company-1",
+      "claim": "示例业务线近期持续投入",
+      "url": "https://example.com/strategy",
+      "published_at": "2026-08-01",
+      "scope": "business_line"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "job-1",
+      "company": "示例科技",
+      "title": "AI Native 产品经理",
+      "department": "智能产品",
+      "location": "北京",
+      "url": "https://careers.example.com/jobs/job-1",
+      "description": "负责 AI 原生产品从 0 到 1 落地。",
+      "similar_group": "ai-product",
+      "hard_requirements": {"campus_full_time": "pass"},
+      "signals": {
+        "personal_relevant_context": {"state": "strong", "evidence": ["候选人有 AI 产品实习"]},
+        "ai_core": {"state": "strong", "evidence": ["JD 明确以 AI 为核心能力"]},
+        "opportunity_growth": {"state": "strong", "evidence": ["业务线处于新增投入阶段"]},
+        "growth_zero_to_one": {"state": "strong", "evidence": ["JD 明确负责 0 到 1"]}
+      }
+    },
+    {
+      "id": "job-2",
+      "company": "示例科技",
+      "title": "大模型产品经理",
+      "department": "智能产品",
+      "location": "北京",
+      "url": "https://careers.example.com/jobs/job-2",
+      "description": "负责大模型产品规划和迭代。",
+      "similar_group": "ai-product",
+      "hard_requirements": {"campus_full_time": "pass"},
+      "signals": {
+        "personal_relevant_context": {"state": "strong", "evidence": ["候选人经历可直接迁移"]},
+        "ai_core": {"state": "strong", "evidence": ["大模型是产品核心能力"]},
+        "opportunity_growth": {"state": "strong", "evidence": ["产品方向仍在增长"]},
+        "growth_zero_to_one": {"state": "partial", "evidence": ["JD 同时包含新功能和存量迭代"]}
+      }
+    },
+    {
+      "id": "job-3",
+      "company": "示例科技",
+      "title": "用户产品经理",
+      "department": "用户产品",
+      "location": "上海",
+      "url": "https://careers.example.com/jobs/job-3",
+      "description": "负责用户产品增长。",
+      "hard_requirements": {"campus_full_time": "pass"},
+      "signals": {
+        "personal_relevant_context": {"state": "strong", "evidence": ["候选人有用户产品经历"]},
+        "opportunity_growth": {"state": "strong", "evidence": ["该产品仍有用户增量"]},
+        "growth_zero_to_one": {"state": "strong", "evidence": ["包含新产品方向探索"]}
+      }
+    },
+    {
+      "id": "job-4",
+      "company": "示例科技",
+      "title": "策略产品经理",
+      "department": "商业策略",
+      "location": "深圳",
+      "url": "https://careers.example.com/jobs/job-4",
+      "description": "负责策略产品迭代。",
+      "hard_requirements": {"campus_full_time": "pass"},
+      "signals": {
+        "personal_relevant_context": {"state": "partial", "evidence": ["候选人部分能力可迁移"]},
+        "opportunity_growth": {"state": "strong", "evidence": ["方向存在新增业务机会"]},
+        "growth_zero_to_one": {"state": "strong", "evidence": ["需要探索新策略能力"]}
+      }
+    },
+    {
+      "id": "job-5",
+      "company": "示例科技",
+      "title": "资深产品经理",
+      "department": "智能产品",
+      "location": "北京",
+      "url": "https://careers.example.com/jobs/job-5",
+      "description": "要求三年以上全职经验。",
+      "hard_requirements": {"campus_full_time": "conflict"},
+      "signals": {}
+    }
+  ]
+}

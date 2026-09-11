@@ -1,0 +1,18 @@
+# 私人候选人资料与本地偏好
+candidate/
+*.local.yaml
+*.local.yml
+
+# 每次运行产生的可能包含岗位匹配证据的文件
+tmp/
+runs/
+output/
+
+# Python 本地文件
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+dist/
+*.egg-info/
+.venv/

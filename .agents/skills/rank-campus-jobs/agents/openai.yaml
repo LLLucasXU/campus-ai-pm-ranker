@@ -1,0 +1,4 @@
+interface:
+  display_name: "校招 AI 产品岗位筛选"
+  short_description: "筛选单家公司校招官网 AI 产品岗位并生成证据化排名"
+  default_prompt: "使用 $rank-campus-jobs 筛选一家公司的校招 AI 产品岗位。"
